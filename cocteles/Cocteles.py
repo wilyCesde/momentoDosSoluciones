@@ -1,8 +1,8 @@
 class Cocteles:
-    def __init__(self):
-        self.nombre = None
-        self.precio = None
-        self.gradosAlcohol = None
+    def __init__(self, nombre, precio, grados_alcohol):
+        self.nombre = nombre
+        self.precio = precio
+        self.gradosAlcohol = grados_alcohol
 
     @property
     def nombre(self):
