@@ -1,8 +1,8 @@
 
-from Coctel import Coctel
+from Cocteles import Cocteles
 
 
-class CoctelConJugoDeFrutas(Coctel):
+class CoctelFrutas(Cocteles):
     def __init__(self, nombre, precio, grados_alcohol, nivel_frescura):
         super().__init__(nombre, precio, grados_alcohol)
         self.nivel_frescura = nivel_frescura
@@ -12,4 +12,3 @@ class CoctelConJugoDeFrutas(Coctel):
             return cantidad * self.precio
         else:
             return 0
-
